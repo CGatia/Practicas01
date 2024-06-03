@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #c7a69a;
+	padding: 20px 0;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+}
+
+.logo-container {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.logo {
+	height: 60px; /* Ajusta la altura del logo según sea necesario */
+}
+
+h1, h2 {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+}
+
+.navbar {
+	background-color: #ffffff;
+	padding: 20px 0;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar li {
+	padding: 0 20px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #000000;
+	transition: color 0.3s;
+}
+
+.navbar a:hover {
+	color: #808080;
+}
+
+/* Estilo para el contenido */
+.container {
+	flex: 1;
+	padding: 20px;
+}
+
+.categories {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.category {
+	display: inline-block;
+	margin: 10px;
+}
+
+.category img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/* Estilo para el footer */
+footer {
+	background-color: #c7a69a;
+	text-align: center;
+	padding: 20px 0;
+	color: #ffffff;
+}
+
+/* Estilo para los enlaces en el footer */
+footer a.linkedin-link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+footer a.linkedin-link:hover {
+	color: #dddddd; /* Un color más claro para el hover, si lo deseas */
+}

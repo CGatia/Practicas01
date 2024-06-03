@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #c7a69a;
+    padding: 20px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #808080;
+}
+
+/* Estilos específicos para el carrito */
+h2 {
+    text-align: center;
+    color: #c7a69a;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+    text-align: center;
+}
+
+form input[type="submit"] {
+    background-color: #c7a69a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #b38b7f;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #dddddd;
+}
